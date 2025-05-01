@@ -1,0 +1,88 @@
+import { Navbar2 } from "../NavBar2";
+import { RevealOnScroll } from "../RevealOnScroll";
+
+const Modeling = () => {
+  return (
+    <section id="Model" className="py-20 ">
+      <Navbar2 />
+
+      <RevealOnScroll>
+        <div className="flex flex-col items-center px-4 md:px-12 space-y-10">
+
+          {/* Title */}
+          <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
+            Modeling Path Loss in Central Area Thailand
+          </h2>
+
+          {/* Description */}
+          <div className="w-full max-w-4xl rounded-xl p-8 border border-gray-300 hover:border-blue-500 transition-all duration-300">
+            <p className="text-gray-700 text-center">
+              This research analyzes path loss in Thailand’s Central region using machine learning and clustering techniques. Key factors like antenna gain, building density, and antenna height are used to group regions and develop customized path loss equations. These models improve prediction accuracy and support more efficient and reliable communication network planning across diverse environments.
+            </p>
+          </div>
+
+          {/* Presentation Section */}
+          <div className="w-full max-w-6xl p-6 rounded-xl border border-gray-300 hover:border-blue-500 transition-all duration-300">
+            <h3 className="text-xl font-bold text-blue-800 mb-6 text-center">
+              Presented at TJMW Special Session at IEICE General Conference 2025 – Tokyo City University, Japan.
+            </h3>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {[
+                "certificate.png",
+              ].map((img, idx) => (
+                <div
+                  key={idx}
+                  className="aspect-[4/3] bg-cover bg-center bg-no-repeat rounded-lg border"
+                  style={{ backgroundImage: `url('src/assets/${img}')` }}
+                ></div>
+              ))}
+                
+              {[
+                "20250327_114723.JPG",
+                "00d153b5-ff42-477e-a663-463a111aca1b.jpeg",
+                "f946fcea-a475-47b9-a462-be605dcbb3d1.jpeg"
+              ].map((img, idx) => (
+                <div
+                  key={idx}
+                  className="aspect-[4/3] bg-cover bg-center bg-no-repeat rounded-lg border"
+                  style={{ backgroundImage: `url('src/assets/${img}')` }}
+                ></div>
+              ))}
+            </div>
+          </div>
+
+          {/* Publication Section */}
+          <div className="w-full max-w-6xl p-6 rounded-xl border border-gray-300 hover:border-blue-500 transition-all duration-300">
+            <h3 className="text-xl font-bold text-blue-800 mb-6 text-center">
+              My research was published by The Institute of Electronics, Information and Communication Engineers (IEICE).
+            </h3>
+
+            <div
+              className="aspect-[4/3] bg-contain bg-center bg-no-repeat rounded-lg border mx-auto w-full"
+              style={{ backgroundImage: "url('src/assets/paper.png')" }}
+            ></div>
+          </div>
+
+          {/* Download Section */}
+          <div className="bg-white p-6 rounded-2xl shadow-lg text-center w-full max-w-md">
+            <h1 className="text-2xl font-bold mb-4">Download My Research</h1>
+            <p className="mb-6 text-gray-600">
+              Click the button below to download the file.
+            </p>
+            <a
+              href="src/assets/Modeling Path Loss in Central Area Thailand.pdf"
+              download
+              className="inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-xl hover:bg-blue-700 transition duration-300"
+            >
+              📎 Download Attachment
+            </a>
+          </div>
+
+        </div>
+      </RevealOnScroll>
+    </section>
+  );
+};
+
+export default Modeling;
