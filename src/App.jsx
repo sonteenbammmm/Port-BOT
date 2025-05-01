@@ -23,15 +23,15 @@ function App() {
       {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}
       
       <Routes>
-        <Route path="/port-BOT" element={<HomePage />} />
-        <Route path="/port-BOT/web-app" element={<WebApp />} />
-        <Route path="/port-BOT/Modeling" element={<Modeling />} />
-        <Route path="/port-BOT/onCloud" element={<OnCloud />} />
-        <Route path="/port-BOT/Detecting" element={<Detecting />} />
-        <Route path="/port-BOT/seed" element={<Seed />} />
-        <Route path="/port-BOT/Singha" element={<Singha />} />
-        <Route path="/port-BOT/HCIA" element={<HCIA/>} />
-        <Route path="/port-BOT/Other" element={<Other
+        <Route path="/" element={<HomePage />} />
+        <Route path="/web-app" element={<WebApp />} />
+        <Route path="/Modeling" element={<Modeling />} />
+        <Route path="/onCloud" element={<OnCloud />} />
+        <Route path="/Detecting" element={<Detecting />} />
+        <Route path="/seed" element={<Seed />} />
+        <Route path="/Singha" element={<Singha />} />
+        <Route path="/HCIA" element={<HCIA/>} />
+        <Route path="/Other" element={<Other
 />} />
 
       </Routes>

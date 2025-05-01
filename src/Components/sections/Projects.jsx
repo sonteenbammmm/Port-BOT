@@ -109,7 +109,7 @@ export const Projects = () => {
                 </div>
                 <p className="text-sm text-gray-600 mb-0">**Click below <strong>"View Project→ "</strong> Button**</p>
                 <div className="flex justify-between items-center">
-                <Link to={`/port-BOT/${project.slug}`}>
+                <Link to={`/${project.slug}`}>
                   <button className="bg-white text-blue-600 font-semibold py-2 px-4 rounded-lg shadow-xl/20 hover:bg-gray-100 transition-colors my-4 cursor-pointer">
                     View Project →
                   </button>

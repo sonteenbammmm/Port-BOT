@@ -17,7 +17,7 @@ export const Navbar2 = ({ menuOpen, setMenuOpen }) => {
       <div className="max-w-5xl mx-auto px-4 ">
         <div className="relative flex justify-center items-center h-16 w-full  ">
           <Link 
-          to ="/port-BOT#projects"          
+          to ="/#projects"          
           className="font-mono text-xl font-bold text-black ">
             <span className="flex items-center space-x-2">
                 <svg className="h-8 w-8 text-gray-900 mr-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
