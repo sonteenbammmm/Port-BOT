@@ -30,7 +30,7 @@ const WebApp = () => {
                   controls
                 >
                   <source
-                    src="./assets/ระบบ plot antenna.mp4"
+                    src="/public/assets/ระบบ plot antenna.mp4"
                     type="video/mp4"
                   />
                   Your browser does not support the video tag.
