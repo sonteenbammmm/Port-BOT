@@ -87,7 +87,7 @@ export const Projects = () => {
     >
         <div className="w-full max-w-6xl mx-auto">
           <h2 className="text-xl md:text-3xl font-bold text-blue-500  mb-2 md: mb-4 text-center">
-          &lt; My Experience &gt;
+          &lt; My Experiences &gt;
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {projects.map((project, index) => (

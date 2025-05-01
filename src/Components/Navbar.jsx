@@ -55,7 +55,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               className="text-blue-600 hove:text-white transition-colors"
             >
               {" "}
-              Projects{" "}
+              Experience{" "}
             </a>
           </div>
         </div>
