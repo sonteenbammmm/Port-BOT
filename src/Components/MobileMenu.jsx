@@ -41,7 +41,7 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
             }        
     `}
       >
-        Projects
+        Experiences
       </a>
     </div>
   );

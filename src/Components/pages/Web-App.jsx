@@ -8,7 +8,6 @@ const WebApp = () => {
       className="min-h-screen flex items-center justify-center py-20"
     >
       <Navbar2/>
-      <RevealOnScroll>
       <div className="flex flex-col items-center px-4 md:px-12 py-8 space-y-6">
 
           <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
@@ -71,8 +70,6 @@ const WebApp = () => {
             </div>
 
       </div>
-
-    </RevealOnScroll>
     </section>
 
   );

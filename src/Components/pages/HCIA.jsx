@@ -6,7 +6,6 @@ const HCIA = () => {
     <section id="Seed" className="py-20 ">
       <Navbar2 />
 
-      <RevealOnScroll>
         <div className="flex flex-col items-center px-4 md:px-12 space-y-10">
 
           {/* Title */}
@@ -46,7 +45,7 @@ const HCIA = () => {
 
 
         </div>
-      </RevealOnScroll>
+
     </section>
   );
 };

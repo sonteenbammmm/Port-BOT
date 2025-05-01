@@ -13,6 +13,7 @@ import Seed from "./Components/pages/seed";
 import Singha from "./Components/pages/Singha";
 import HCIA from "./Components/pages/HCIA";
 import Other from "./Components/pages/Other";
+import { Projects2 } from "./Components/sections/Project2";
 
 
 function App() {
@@ -31,8 +32,9 @@ function App() {
         <Route path="/seed" element={<Seed />} />
         <Route path="/Singha" element={<Singha />} />
         <Route path="/HCIA" element={<HCIA/>} />
-        <Route path="/Other" element={<Other
-/>} />
+        <Route path="/Other" element={<Other/>} />
+        <Route path="/Projects2" element={<Projects2/>} />
+
 
       </Routes>
     </>
