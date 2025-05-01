@@ -30,7 +30,7 @@ const WebApp = () => {
                   controls
                 >
                   <source
-                    src="src/assets/ระบบ plot antenna.mp4"
+                    src="./assets/ระบบ plot antenna.mp4"
                     type="video/mp4"
                   />
                   Your browser does not support the video tag.
@@ -46,7 +46,7 @@ const WebApp = () => {
                   controls
                 >
                   <source
-                    src="src/assets/ระบบค้นหาmsi file table.mp4"
+                    src="./assets/ระบบค้นหาmsi file table.mp4"
                     type="video/mp4"
                   />
                   Your browser does not support the video tag.
@@ -62,7 +62,7 @@ const WebApp = () => {
                   controls
                 >
                   <source
-                    src="src/assets/ระบบตรวจสอบความแรงของสัญญาณในแต่ละพื้นที่.mp4"
+                    src="./assets/ระบบตรวจสอบความแรงของสัญญาณในแต่ละพื้นที่.mp4"
                     type="video/mp4"
                   />
                   Your browser does not support the video tag.
