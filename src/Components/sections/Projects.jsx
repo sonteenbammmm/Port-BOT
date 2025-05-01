@@ -86,7 +86,7 @@ export const Projects = () => {
       className="min-h-[80vh] sm:min-h-screen flex flex-col justify-start sm:justify-center py-12 px-4 sm:px-6 lg:px-8"
     >
         <div className="w-full max-w-6xl mx-auto">
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-10 text-center bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent">
+          <h2 className="text-xl md:text-3xl underline font-bold text-blue-500  mb-2 md: mb-4 text-center">
             My Experience
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">

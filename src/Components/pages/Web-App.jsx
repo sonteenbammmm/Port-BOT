@@ -10,7 +10,7 @@ const WebApp = () => {
       <Navbar2/>
       <div className="flex flex-col items-center px-4 md:px-12 py-8 space-y-6">
 
-          <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
+          <h2 className="text-xl md:text-3xl underline font-bold text-blue-500  mb-2 md: mb-4 text-center">
             Web Application for Generating Three-Dimensional Antenna Gain
           </h2>
 

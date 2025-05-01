@@ -9,7 +9,7 @@ const Other = () => {
         <div className="flex flex-col items-center px-4 md:px-12 space-y-10">
 
           {/* Title */}
-          <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
+          <h2 className="text-xl md:text-3xl underline font-bold text-blue-500  mb-2 md: mb-4 text-center">
           Activities
           </h2>
 
