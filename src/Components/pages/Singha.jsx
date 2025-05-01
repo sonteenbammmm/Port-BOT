@@ -9,12 +9,7 @@ const Singha = () => {
         <div className="flex flex-col items-center px-4 md:px-12 space-y-10">
 
           {/* Title */}
-          <h2 className="text-4xl font-bold bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center"
-            style={{
-              WebkitBackgroundClip: "text",
-              WebkitTextFillColor: "transparent",
-              display: "inline-block" 
-            }}>
+          <h2 className="text-xl md:text-3xl underline font-bold text-blue-500  mb-2 md: mb-4 text-center">
           Singha Ultimate Challenge - Doer Force the Future Program (2024)
         </h2>
 
