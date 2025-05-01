@@ -37,7 +37,7 @@ each cluster, enhancing communication system performance and reliability in vari
                 <div
                   key={idx}
                   className="aspect-[4/3] bg-contain bg-center bg-no-repeat rounded-lg border"
-                  style={{ backgroundImage: `url('src/assets/${img}')` }}
+                  style={{ backgroundImage: `url('/assets/${img}')` }}
                 ></div>
               ))}
                 
@@ -51,7 +51,7 @@ each cluster, enhancing communication system performance and reliability in vari
               Click the button below to download the file.
             </p>
             <a
-              href="src/assets/Detecting Anomalous Antenna Coverage Using Distance Rate.pdf"
+              href="/assets/Detecting Anomalous Antenna Coverage Using Distance Rate.pdf"
               download
               className="inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-xl hover:bg-blue-700 transition duration-300"
             >

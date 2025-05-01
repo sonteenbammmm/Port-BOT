@@ -31,7 +31,7 @@ const OnCloud = () => {
                 <div
                   key={idx}
                   className="aspect-[4/3] bg-cover bg-center bg-no-repeat rounded-lg border"
-                  style={{ backgroundImage: `url('src/assets/${img}')` }}
+                  style={{ backgroundImage: `url('/assets/${img}')` }}
                 ></div>
               ))}
                 

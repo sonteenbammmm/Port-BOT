@@ -34,7 +34,7 @@ const Modeling = () => {
                 <div
                   key={idx}
                   className="aspect-[4/3] bg-cover bg-center bg-no-repeat rounded-lg border"
-                  style={{ backgroundImage: `url('src/assets/${img}')` }}
+                  style={{ backgroundImage: `url('/assets/${img}')` }}
                 ></div>
               ))}
                 
@@ -46,7 +46,7 @@ const Modeling = () => {
                 <div
                   key={idx}
                   className="aspect-[4/3] bg-cover bg-center bg-no-repeat rounded-lg border"
-                  style={{ backgroundImage: `url('src/assets/${img}')` }}
+                  style={{ backgroundImage: `url('/assets/${img}')` }}
                 ></div>
               ))}
             </div>
@@ -60,7 +60,7 @@ const Modeling = () => {
 
             <div
               className="aspect-[4/3] bg-contain bg-center bg-no-repeat rounded-lg border mx-auto w-full"
-              style={{ backgroundImage: "url('src/assets/paper.png')" }}
+              style={{ backgroundImage: "url('/assets/paper.png')" }}
             ></div>
           </div>
 
@@ -71,7 +71,7 @@ const Modeling = () => {
               Click the button below to download the file.
             </p>
             <a
-              href="src/assets/Modeling Path Loss in Central Area Thailand.pdf"
+              href="/assets/Modeling Path Loss in Central Area Thailand.pdf"
               download
               className="inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-xl hover:bg-blue-700 transition duration-300"
             >

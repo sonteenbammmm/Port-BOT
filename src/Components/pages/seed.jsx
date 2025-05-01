@@ -34,7 +34,7 @@ Innovation Idea "Food Guardian"
                 <div
                   key={idx}
                   className="aspect-[4/3] bg-contain bg-center bg-no-repeat rounded-lg border"
-                  style={{ backgroundImage: `url('src/assets/${img}')` }}
+                  style={{ backgroundImage: `url('/assets/${img}')` }}
                 ></div>
               ))}
             <p className="text-gray-700 text-center">
@@ -57,7 +57,7 @@ Innovation Idea "Food Guardian"
                 <div
                   key={idx}
                   className="aspect-[4/3] bg-contain bg-center bg-no-repeat rounded-lg border"
-                  style={{ backgroundImage: `url('src/assets/${img}')` }}
+                  style={{ backgroundImage: `url('/assets/${img}')` }}
                 ></div>
               ))}
 

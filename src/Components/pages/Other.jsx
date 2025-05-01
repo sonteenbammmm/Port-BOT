@@ -28,7 +28,7 @@ const Other = () => {
                 <div
                   key={idx}
                   className="aspect-[6/3] bg-contain bg-center bg-no-repeat rounded-lg border-none "
-                  style={{ backgroundImage: `url('src/assets/${img}')` }}
+                  style={{ backgroundImage: `url('/assets/${img}')` }}
                 ></div>
               ))}
                 
@@ -67,7 +67,7 @@ const Other = () => {
                 <div
                   key={idx}
                   className="aspect-[2/3] bg-contain bg-center bg-no-repeat rounded-lg border "
-                  style={{ backgroundImage: `url('src/assets/${img}')` }}
+                  style={{ backgroundImage: `url('/assets/${img}')` }}
                 ></div>
               ))}
               
@@ -96,7 +96,7 @@ const Other = () => {
                   <div
                     key={idx}
                     className="aspect-[2/3] bg-contain bg-center bg-no-repeat rounded-lg border"
-                    style={{ backgroundImage: `url('src/assets/${img}')` }}
+                    style={{ backgroundImage: `url('/assets/${img}')` }}
                   ></div>
                 ))}
               </div>
@@ -126,7 +126,7 @@ const Other = () => {
                   <div
                     key={idx}
                     className="aspect-[2/3] bg-contain bg-center bg-no-repeat rounded-lg border-none"
-                    style={{ backgroundImage: `url('src/assets/${img}')` }}
+                    style={{ backgroundImage: `url('/assets/${img}')` }}
                   ></div>
                 ))}
               </div>
