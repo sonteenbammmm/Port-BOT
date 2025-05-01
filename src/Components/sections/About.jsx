@@ -29,9 +29,9 @@ export const About = () => {
       className="min-h-screen flex items-center justify-center py-20"
     >
         <div className="max-w-3xl mx-auto px-4">
-            <h2 className="text-xl md:text-3xl underline font-bold text-blue-500  mb-2 md: mb-4 text-center">
+            <h2 className="text-xl md:text-3xl font-bold text-blue-500  mb-2 md: mb-4 text-center">
                 {" "}
-                About Me
+                &lt; About Me &gt;
             </h2>
 
          <div className=" flex rounded-xl p-8 border border-gray-300 hover:border-blue-500 hover:-translate-y-1 transition-all duration-300 mb-6">
